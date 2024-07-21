@@ -6,7 +6,7 @@ metadata:
     name: index-web-deploy
     app: demo-web-page
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       name: index-web-pod
