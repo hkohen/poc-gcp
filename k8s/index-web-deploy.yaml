@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: index-web-container01
-          image: sumuduliyan/index-web
+          image: hkohen/index-web:latest
           resources:
             requests:
               memory: "64Mi"
